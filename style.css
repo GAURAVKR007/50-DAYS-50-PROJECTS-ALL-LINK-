@@ -38,6 +38,10 @@ body{
     color: rgba(49, 90, 224, 0.856)
 }
 
+.links a:active {
+    transform: scale(0.97);
+}
+
 .footer {
     height: 5vh;
     font-size: 1.8rem;
