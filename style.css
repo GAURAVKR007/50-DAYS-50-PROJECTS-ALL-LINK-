@@ -52,3 +52,19 @@ body{
     color: white;
     background: linear-gradient(333deg, rgba(121,112,114,1) 27%, rgba(29,27,20,1) 88%);
 }
+
+@media (max-width: 400px) {
+    .links {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 278px) {
+    .links {
+        grid-template-columns: auto;
+    }
+
+    .head {
+        font-size: 12px;
+    }
+}
